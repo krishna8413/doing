@@ -1,12 +1,11 @@
 import "./Video.css";
-function Video({ title, channel="Coder Dost ", views, time ,verified}) {
+function Video({ title,id, channel="Coder Dost ", views, time ,verified,children}) {
   return (
     <>
       <div className='container'>
         <div className="pic">
           <img
-            src="http://picsum.photos/id/${id}/160/90
-"
+            src={`http://picsum.photos/id/${id}/160/90`}
             alt="Katherine Johnson"
           /> 
         </div>
